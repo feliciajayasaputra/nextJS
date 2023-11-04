@@ -1,14 +1,14 @@
 "use client"
-import CountButton from "./CountButton"
+import CountButton from "./CountButton/CountButton"
+import SearchBar from "./SearchBar/SearchBar"
+
 export default function Page() {
     return <div>
-    <CountButton />
-    <CountButton />
-    <CountButton />
+    <CountButton name={"Pablo"} mult={1} size={2}/> <CountButton name={"Pia"} mult={2} size={0.5}/>
     <hr />
-    <a href="github.com">my github repo</a>
+    <a href="https://github.com/feliciajayasaputra">my github repo</a>
     <hr />
-    <p>Search Bar</p>
+    <SearchBar />
     </div>
   }
 
