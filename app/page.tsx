@@ -6,7 +6,7 @@ export default function Page() {
     return <div>
     <CountButton name={"Pablo"} mult={1} size={2}/> <CountButton name={"Pia"} mult={2} size={0.5}/>
     <hr />
-    <a href="https://github.com/feliciajayasaputra">my github repo</a>
+    <a href="https://github.com/feliciajayasaputra/nextJS.git">my github repo</a>
     <hr />
     <SearchBar />
     </div>
