@@ -1,2 +1,1 @@
 # nextJS
-nextJS assignment
